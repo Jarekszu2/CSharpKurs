@@ -10,6 +10,11 @@ namespace Hallo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            string name = args[0];
+            Console.WriteLine("Cześć " + name);
+            Console.WriteLine();
+            Console.WriteLine("Koniec");
         }
     }
 }
