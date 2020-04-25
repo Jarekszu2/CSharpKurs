@@ -13,8 +13,17 @@ namespace Hallo
             Console.WriteLine();
             string name = args[0];
             Console.WriteLine("Cześć " + name);
+
+            Console.WriteLine();
+            foreach (var item in args)
+            {
+                Console.WriteLine("Cześć " + item);
+            }
+
             Console.WriteLine();
             Console.WriteLine("Koniec");
+
+            Console.ReadKey();
         }
     }
 }
