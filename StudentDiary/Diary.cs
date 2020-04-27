@@ -5,9 +5,18 @@ using System.Linq;
 namespace StudentDiary
 {
     class Diary
-    {
+    { 
+        public Diary()
+        {
+            ratings = new List<float>();
+        }
+
+        // gdy nie ma konstruktora
         // stan klasy (zmienne - pola)
-        List<float> ratings = new List<float>();
+        // List<float> ratings = new List<float>();
+
+        // gdy jest konstruktor
+        List<float> ratings;
 
         // zachowania klasy (metody)
         public void AddRating(float rating)
